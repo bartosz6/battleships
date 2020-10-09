@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Settings.fs" />
+        <Compile Include="Errors.fs" />
+        <Compile Include="ErrorWriter.fs" />
+        <Compile Include="CoordinateParser.fs" />
+        <Compile Include="PlayerInput.fs" />
+        <Compile Include="MessageWriter.fs" />
+        <Compile Include="Battleships.fs" />
+        <Compile Include="Program.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Battleships.Game\Battleships.Game.fsproj" />
+    </ItemGroup>
+
+</Project>
