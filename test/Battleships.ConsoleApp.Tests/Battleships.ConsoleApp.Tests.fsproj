@@ -8,12 +8,11 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Compile Include="Generators.fs" />
-        <Compile Include="UtilsTests.fs" />
-        <Compile Include="ShipTests.fs" />
-        <Compile Include="ShipFactoryTests.fs" />
-        <Compile Include="PlayerTests.fs" />
-        <Compile Include="GameTests.fs" />
+        <Compile Include="BattleshipsTests.fs" />
+        <Compile Include="MessageWriterTests.fs" />
+        <Compile Include="PlayerInputTests.fs" />
+        <Compile Include="ErrorWriterTests.fs" />
+        <Compile Include="CoordinateParserTests.fs" />
         <Compile Include="Program.fs" />
     </ItemGroup>
 
@@ -25,7 +24,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Battleships.Game\Battleships.Game.fsproj" />
+      <ProjectReference Include="..\..\src\Battleships.ConsoleApp\Battleships.ConsoleApp.fsproj" />
       <ProjectReference Include="..\Battleships.TestCommon\Battleships.TestCommon.fsproj" />
     </ItemGroup>
 

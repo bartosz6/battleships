@@ -1,18 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Battleships.Game", "Battleships.Game\Battleships.Game.fsproj", "{B03689AF-3F54-4ED4-8181-FB249478CE5B}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Battleships.Game", "src\Battleships.Game\Battleships.Game.fsproj", "{B03689AF-3F54-4ED4-8181-FB249478CE5B}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Battleships.Game.Tests", "Battleships.Game.Tests\Battleships.Game.Tests.fsproj", "{0D4A0B13-EAB6-4872-AEC7-59D38296EFEE}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Battleships.Game.Tests", "test\Battleships.Game.Tests\Battleships.Game.Tests.fsproj", "{0D4A0B13-EAB6-4872-AEC7-59D38296EFEE}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Battleships.ConsoleApp", "Battleships.ConsoleApp\Battleships.ConsoleApp.fsproj", "{0F933B09-21B3-4111-A5D3-2FF2E40CF87C}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Battleships.ConsoleApp", "src\Battleships.ConsoleApp\Battleships.ConsoleApp.fsproj", "{0F933B09-21B3-4111-A5D3-2FF2E40CF87C}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Battleships.ConsoleApp.Tests", "Battleships.ConsoleApp.Tests\Battleships.ConsoleApp.Tests.fsproj", "{A826FBD3-BBB1-4694-9533-CB662461D419}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Battleships.ConsoleApp.Tests", "test\Battleships.ConsoleApp.Tests\Battleships.ConsoleApp.Tests.fsproj", "{A826FBD3-BBB1-4694-9533-CB662461D419}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Battleships.TestCommon", "Battleships.TestCommon\Battleships.TestCommon.fsproj", "{B093E4C1-D5F4-40DB-A9EF-E49CC6DD9910}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Battleships.TestCommon", "test\Battleships.TestCommon\Battleships.TestCommon.fsproj", "{B093E4C1-D5F4-40DB-A9EF-E49CC6DD9910}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EFF255FC-61FF-4C46-A22B-D9B579965904}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{888EC6B1-4E54-470C-8272-5889DC5F285D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{6DFA8221-1411-4F42-AB4E-9F22D26E0EFB}"
+ProjectSection(SolutionItems) = preProject
+	doc\README.md = doc\README.md
+EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
